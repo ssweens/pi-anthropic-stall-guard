@@ -1,0 +1,27 @@
+{
+  "name": "@ssweens/pi-anthropic-stall-guard",
+  "version": "1.0.0",
+  "description": "Turns an Anthropic stream that never starts into a retryable error, so pi resends it instead of hanging until Esc",
+  "keywords": [
+    "pi-package",
+    "pi-extension",
+    "anthropic"
+  ],
+  "type": "module",
+  "license": "MIT",
+  "author": "ssweens",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ssweens/pi-anthropic-stall-guard"
+  },
+  "files": [
+    "index.ts",
+    "README.md",
+    "LICENSE"
+  ],
+  "pi": {
+    "extensions": [
+      "./index.ts"
+    ]
+  }
+}
